@@ -86,7 +86,7 @@ class Account extends CI_Controller {
 			'ga'  => $data['my_website']['0']['set_ga'],
 			'backstage'  => $data['my_website']['0']['set_backstage']
 			);
-		//Choosen Wewbsite
+		//Chosen Wewbsite
 		$data['website'] = $this->Website_model->get_website($website_id);
 		
 		
